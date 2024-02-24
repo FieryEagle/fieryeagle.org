@@ -28,8 +28,7 @@ paginate = 10
   images = [""]
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
+  disableKinds = ['taxonomy', 'term', 'section']
 
 [languages]
   [languages.en]
@@ -56,6 +55,11 @@ paginate = 10
     identifier = "downloads"
     name       = "Downloads"
     url        = "/downloads"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
 
   [[params.social]]
     name = "twitter"
