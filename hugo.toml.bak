@@ -1,9 +1,8 @@
 baseURL = 'https://fieryeagle.org'
 languageCode = 'en-us'
-title = ''
+title = "Fiery's site"
 theme = 'hello-friend-ng'
 paginate = 10
-enableRobotsTXT = true
 
 [params]  
   dateform        = "Jan 2, 2006"
@@ -18,7 +17,7 @@ enableRobotsTXT = true
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = false
+  enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
@@ -29,23 +28,22 @@ enableRobotsTXT = true
   images = [""]
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
+  disableKinds = ['taxonomy', 'term', 'section']
 
 [languages]
   [languages.en]
     title = "Fiery's site"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    
+
 
   [languages.en.params]
     subtitle  = ""
     keywords = ""
     readOtherPosts = "Read other posts"
-
+  
     [languages.en.params.logo]
       logoText = "Hello!"
-      logoHomeLink = "/"
+      logoHomeLink = "."
 
     # or
     #
@@ -53,16 +51,15 @@ enableRobotsTXT = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+  [[menu.main]]
+    identifier = "downloads"
+    name       = "Downloads"
+    url        = "/downloads"
 
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "/about"
-
-  [[menu.main]]
-    identifier = "downloads"
-    name       = "Downloads"
-    url        = "/downloads"
 
   [[params.social]]
     name = "twitter"
@@ -75,11 +72,3 @@ enableRobotsTXT = true
   [[params.social]]
     name = "discord"
     url  = "http://discordapp.com/users/345153972765720577"
-
-  [[params.social]]
-    name = "steam"
-    url  = "https://steamcommunity.com/id/FieryEagle/"
-
-  [[params.social]]
-    name = "twitch"
-    url  = "https://www.twitch.tv/fiery_eagle"
