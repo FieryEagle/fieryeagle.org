@@ -1,0 +1,72 @@
+baseURL: https://fieryeagle.org/
+languageCode: en-us
+title: Fiery Eagle
+theme: ["PaperMod"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 5
+        - name: Downloads
+          url: downloads/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Fiery Eagle's Website"
+  author: Theme PaperMod
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+
+  homeInfoParams:
+    Title: "Fiery Eagle's Website!"
+    Content: >
+      - This is my little corner of the internet where I sometimes share about projects I'm working on, write guides on how to do stuff or maybe just share files, who knows ¯\\_(ツ)_/¯
+
+  socialIcons:
+    - name: Twitter
+      title: Interact with me on twitter
+      url: "https://twitter.com/Fiery_Eagle"
+    - name: Discord
+      title: Chat on discord
+      url: "http://discordapp.com/users/345153972765720577"
+    - name: GitHub
+      title: Sometimes I write code
+      url: "https://github.com/FieryEagle"
+    - name: Steam
+      title: Me play game
+      url: "https://steamcommunity.com/id/FieryEagle/"
+    - name: Twitch
+      title: I don't stream
+      url: "https://www.twitch.tv/fiery_eagle"
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
+      url: "https://ko-fi.com/fieryeagle"
