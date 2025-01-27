@@ -83,3 +83,7 @@ enableRobotsTXT = true
   [[params.social]]
     name = "twitch"
     url  = "https://www.twitch.tv/fiery_eagle"
+
+  [[params.social]]
+    name = "kofi"
+    url  = "https://ko-fi.com/fieryeagle"
