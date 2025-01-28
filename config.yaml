@@ -28,7 +28,7 @@ params:
   author: Theme PaperMod
 
   defaultTheme: auto
-  # disableThemeToggle: true
+  disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
