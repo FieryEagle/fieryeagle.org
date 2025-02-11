@@ -13,8 +13,7 @@
       <link>https://fieryeagle.org/posts/1/</link>
       <pubDate>Mon, 27 Jan 2025 18:28:39 +0000</pubDate>
       <guid>https://fieryeagle.org/posts/1/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ko-fi.com/B0B419O55G&#34;&gt;&lt;img alt=&#34;ko-fi&#34; loading=&#34;lazy&#34; src=&#34;https://ko-fi.com/img/githubbutton_sm.svg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This guide will mainly be focused around Debian based Linux distributions, such as Linux Mint, Ubuntu, etc, but it should be fairly simple to adapt these instructions to work with your torrent client of choice. We will also be mainly using docker compose for ease of config&lt;/p&gt;
 &lt;h2 id=&#34;installing-docker&#34;&gt;Installing Docker&lt;/h2&gt;
 &lt;p&gt;Installing docker is best done by following the official instructions. These can be found at&lt;/p&gt;

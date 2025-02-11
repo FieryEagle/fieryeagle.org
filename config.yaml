@@ -63,6 +63,3 @@ params:
     - name: Twitch
       title: I don't stream
       url: "https://www.twitch.tv/fiery_eagle"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/fieryeagle"
