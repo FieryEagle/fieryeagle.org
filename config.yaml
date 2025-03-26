@@ -2,7 +2,7 @@ baseURL: https://fieryeagle.org/
 languageCode: en-us
 title: Fiery Eagle
 theme: ["PaperMod"]
-enableRobotsTXT = true
+enableRobotsTXT: true
 
 languages:
   en:
