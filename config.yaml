@@ -49,6 +49,8 @@ params:
       - This is my little corner of the internet where I sometimes share about projects I'm working on, write guides on how to do stuff or maybe just share files, who knows ¯\\_(ツ)_/¯
 
   socialIcons:
+    - name: email
+      url: "mailto:website@fieryeagle.org"
     - name: Twitter
       title: Interact with me on twitter
       url: "https://twitter.com/Fiery_Eagle"
